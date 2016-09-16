@@ -1,7 +1,7 @@
 # Analysis of STARS hindcast data using Python
 This is a collection of Python scripts that I used while writing my Bachelor's thesis "Analysis of Spatial Patterns in STARS-Generated Data using Complex Networks and Kappa-Statistics" at the [Potsdam-Institute for Climate Impact Research](https://www.pik-potsdam.de) in 2016 under the supervision of Norbert Marwan and Prof. Jürgen Kurths.
 
-More information on the source data and my analysis can be found in [my thesis](thesis.pdf).
+The STARS model is developed at PIK, more details are [here](https://www.pik-potsdam.de/research/climate-impacts-and-vulnerabilities/models/stars). My analysis of the STARS-hindcast dataset can be found in [my thesis](thesis.pdf).
 
 ## Usage
 The `scripts` directory contains the scripts that can be used to handle STARS and BASIS data. My basic workflow can be seen in `scripts/main.py`. Please update the scripts/misc/paths.py to match your local directory structure. The files `scripts/misc/functions.py` and `scripts/misc/plotting.py` provide some additional work that might be useful for others.
